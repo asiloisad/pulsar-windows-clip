@@ -1,5 +1,5 @@
 'context-menu':
-  '.tree-view .full-menu, .tree-view .multi-select': [
+  '.platform-win32 .tree-view .full-menu, .platform-win32 .tree-view .multi-select': [
     {'type': 'separator'}
     { label: 'Copy (System)', command: 'system-clip:copy' },
     { label: 'Paste (System)', command: 'system-clip:paste' },
