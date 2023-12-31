@@ -1,4 +1,4 @@
-# system-clip
+# windows-files
 
 <p align="center">
   <a href="https://github.com/bacadra/pulsar-system-clip/tags">
@@ -15,11 +15,11 @@
   </a>
 </p>
 
-Only Windows XP+ are supported for now. CLI provided by:
-https://sbytestream.pythonanywhere.com/software/cmdcopypaste
+Only Windows XP+ are supported for now. CLI provided by:\
+<https://sbytestream.pythonanywhere.com/software/cmdcopypaste>
 
-An migration to multiplatform CLI is on-going.
-https://github.com/Slackadays/Clipboard
+An migration to multiplatform CLI is on-going:\
+<https://github.com/Slackadays/Clipboard>
 
 ## Installation
 
