@@ -13,7 +13,7 @@
   "homepage": "https://github.com/bacadra/pulsar-system-clip",
   "url": "https://github.com/bacadra/pulsar-system-clip",
   "repository": "https://github.com/bacadra/pulsar-system-clip",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "consumedServices": {
     "tree-view": {
       "versions": {
