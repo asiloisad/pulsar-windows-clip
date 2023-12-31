@@ -15,7 +15,11 @@
   </a>
 </p>
 
+Only Windows XP+ are supported for now. CLI provided by:
 https://sbytestream.pythonanywhere.com/software/cmdcopypaste
+
+An migration to multiplatform CLI is on-going.
+https://github.com/Slackadays/Clipboard
 
 ## Installation
 
