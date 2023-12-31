@@ -1,0 +1,7 @@
+'context-menu':
+  '.tree-view .full-menu, .tree-view .multi-select': [
+    {'type': 'separator'}
+    { label: 'Copy (System)', command: 'system-clip:copy' },
+    { label: 'Paste (System)', command: 'system-clip:paste' },
+    {'type': 'separator'}
+  ]
