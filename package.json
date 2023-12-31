@@ -13,13 +13,13 @@
   "homepage": "https://github.com/bacadra/pulsar-windows-files",
   "url": "https://github.com/bacadra/pulsar-windows-files",
   "repository": "https://github.com/bacadra/pulsar-windows-files",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "consumedServices": {
     "tree-view": {
       "versions": {
         "^1.0.0": "consumeTreeView"
       }
     }
-  },  
+  },
   "license": "MIT"
 }
