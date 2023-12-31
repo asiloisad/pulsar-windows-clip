@@ -1,4 +1,4 @@
-# windows-files
+# system-clip
 
 <p align="center">
   <a href="https://github.com/bacadra/pulsar-system-clip/tags">
