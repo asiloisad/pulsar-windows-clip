@@ -1,0 +1,25 @@
+{
+  "description": "Copy & paste files using Windows clipboard",
+  "keywords": [
+    "bacadra",
+    "windows",
+    "clipboard"
+  ],
+  "engines": {
+    "atom": ">=1.100.0 <2.0.0"
+  },
+  "main": "./lib/main",
+  "name": "windows-files",
+  "homepage": "https://github.com/bacadra/pulsar-windows-files",
+  "url": "https://github.com/bacadra/pulsar-windows-files",
+  "repository": "https://github.com/bacadra/pulsar-windows-files",
+  "version": "0.0.0",
+  "consumedServices": {
+    "tree-view": {
+      "versions": {
+        "^1.0.0": "consumeTreeView"
+      }
+    }
+  },  
+  "license": "MIT"
+}

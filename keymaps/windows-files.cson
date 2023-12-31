@@ -1,0 +1,4 @@
+'.platform-win32 .tree-view':
+  'ctrl-alt-c': 'windows-files:copy'
+  'ctrl-alt-v': 'windows-files:paste'
+  'ctrl-alt-f': 'windows-files:force'
