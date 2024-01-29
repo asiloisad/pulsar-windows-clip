@@ -1,5 +1,5 @@
 {
-  "description": "Copy & paste files by native clipboard",
+  "description": "Windows native copy & paste",
   "keywords": [
     "bacadra",
     "windows",
@@ -9,10 +9,10 @@
     "atom": ">=1.100.0 <2.0.0"
   },
   "main": "./lib/main",
-  "name": "system-clip",
-  "homepage": "https://github.com/bacadra/pulsar-system-clip",
-  "url": "https://github.com/bacadra/pulsar-system-clip",
-  "repository": "https://github.com/bacadra/pulsar-system-clip",
+  "name": "windows-clip",
+  "homepage": "https://github.com/bacadra/pulsar-windows-clip",
+  "url": "https://github.com/bacadra/pulsar-windows-clip",
+  "repository": "https://github.com/bacadra/pulsar-windows-clip",
   "version": "0.2.0",
   "consumedServices": {
     "tree-view": {

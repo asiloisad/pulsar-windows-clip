@@ -1,4 +1,4 @@
 '.platform-win32 .tree-view':
-  'ctrl-alt-c': 'system-clip:copy'
-  'ctrl-alt-v': 'system-clip:paste'
-  'ctrl-shift-v': 'system-clip:force'
+  'ctrl-alt-c': 'windows-clip:copy'
+  'ctrl-alt-v': 'windows-clip:paste'
+  'ctrl-shift-v': 'windows-clip:force'
