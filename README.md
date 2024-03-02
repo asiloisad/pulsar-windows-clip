@@ -15,6 +15,8 @@
   </a>
 </p>
 
+Windows native clipboard is used to copy/paste files. Windows-like copy name is used `<name> - Copy (i)<ext>`. A cut is not available yet.
+
 ## Installation
 
 To install `windows-clip` search for [windows-clip](https://web.pulsar-edit.dev/packages/windows-clip) in the Install pane of the Pulsar settings or run `ppm install windows-clip`. Alternatively, you can run `ppm install bacadra/pulsar-windows-clip` to install a package directly from the Github repository.
