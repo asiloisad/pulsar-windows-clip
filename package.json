@@ -16,7 +16,7 @@
   "homepage": "https://github.com/bacadra/pulsar-windows-clip",
   "url": "https://github.com/bacadra/pulsar-windows-clip",
   "repository": "https://github.com/bacadra/pulsar-windows-clip",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "consumedServices": {
     "tree-view": {
       "versions": {
