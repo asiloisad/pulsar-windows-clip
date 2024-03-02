@@ -15,7 +15,7 @@
   </a>
 </p>
 
-Windows native clipboard is used to copy/paste files. Windows-like copy name is used `<name> - Copy (i)<ext>`. A cut is not available yet.
+Windows native clipboard is used to copy/paste files. Windows-like copy name is used `<name> - Copy (i)<ext>`. A cut operation is not available yet.
 
 ## Installation
 

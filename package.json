@@ -1,15 +1,18 @@
 {
-  "description": "Windows native copy & paste",
+  "description": "Windows native copy & paste of files",
   "keywords": [
     "bacadra",
     "windows",
-    "clipboard"
+    "clipboard",
+    "native",
+    "copy",
+    "paste"
   ],
   "engines": {
     "atom": ">=1.100.0 <2.0.0"
   },
   "main": "./lib/main",
-  "name": "windows-clip-plus",
+  "name": "windows-clip",
   "homepage": "https://github.com/bacadra/pulsar-windows-clip",
   "url": "https://github.com/bacadra/pulsar-windows-clip",
   "repository": "https://github.com/bacadra/pulsar-windows-clip",
