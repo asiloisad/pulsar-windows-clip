@@ -15,9 +15,6 @@
   </a>
 </p>
 
-Windows XP+ are supported. CLI provided by:\
-<https://sbytestream.pythonanywhere.com/software/cmdcopypaste>
-
 ## Installation
 
 To install `windows-clip` search for [windows-clip](https://web.pulsar-edit.dev/packages/windows-clip) in the Install pane of the Pulsar settings or run `ppm install windows-clip`. Alternatively, you can run `ppm install bacadra/pulsar-windows-clip` to install a package directly from the Github repository.
