@@ -12,9 +12,9 @@ To install `windows-clip` search for [windows-clip](https://web.pulsar-edit.dev/
 
 In `.platform-win32 .tree-view` there are available commands:
 
-- `windows-clip:copy`: (default `Ctrl-Shift-C`) use Windows file-copy function
-- `windows-clip:paste`: (default `Ctrl-Shift-V`) use Windows file-paste function
-- `windows-clip:force`: (default `Ctrl-Alt-V`) use Windows file-paste function even if name already exists
+- `windows-clip:copy`: (default `Shift-C`) use Windows native-like copy function
+- `windows-clip:paste`: (default `Shift-V`) use Windows native-like paste function
+- `windows-clip:force`: (default `Shift-B`) use Windows native-like paste function (and overwrite names if already exists)
 
 Commands are available in context-menu.
 
