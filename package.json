@@ -3,7 +3,6 @@
   "description": "A native-like copy/paste operations for tree-view in Windows OS",
   "repository": "https://github.com/bacadra/pulsar-windows-clip",
   "keywords": [
-    "bacadra",
     "windows",
     "clipboard",
     "native",
