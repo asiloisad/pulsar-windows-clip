@@ -1,5 +1,7 @@
 {
+  "name": "windows-clip",
   "description": "A native-like copy/paste operations for tree-view in Windows OS",
+  "repository": "https://github.com/bacadra/pulsar-windows-clip",
   "keywords": [
     "bacadra",
     "windows",
@@ -8,15 +10,12 @@
     "copy",
     "paste"
   ],
+  "version": "1.2.0",
+  "license": "MIT",
   "engines": {
     "atom": ">=1.100.0 <2.0.0"
   },
   "main": "./lib/main",
-  "name": "windows-clip",
-  "homepage": "https://github.com/bacadra/pulsar-windows-clip",
-  "url": "https://github.com/bacadra/pulsar-windows-clip",
-  "repository": "https://github.com/bacadra/pulsar-windows-clip",
-  "version": "1.2.0",
   "consumedServices": {
     "tree-view": {
       "versions": {
@@ -24,15 +23,11 @@
       }
     }
   },
-  "license": "MIT",
   "dependencies": {
     "electron-clipboard-ex": "^1.3.3",
     "fs-extra": "^11.2.0",
     "i": "^0.3.7",
     "install": "^0.13.0",
     "npm": "^10.5.0"
-  },
-  "devDependencies": {
-    "@types/fs-extra": "^11.0.4"
   }
 }
