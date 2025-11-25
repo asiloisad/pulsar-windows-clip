@@ -1,20 +1,26 @@
 {
   "name": "windows-clip",
-  "description": "A native-like copy/paste operations for tree-view in Windows OS",
+  "description": "Native Windows clipboard Cut/Copy/Paste operations for tree-view",
   "repository": "https://github.com/asiloisad/pulsar-windows-clip",
   "keywords": [
     "windows",
     "clipboard",
     "native",
     "copy",
-    "paste"
+    "paste",
+    "cut",
+    "move"
   ],
-  "version": "1.2.1",
+  "version": "2.0.0",
   "license": "MIT",
   "engines": {
     "atom": ">=1.100.0 <2.0.0"
   },
   "main": "./lib/main",
+  "scripts": {
+    "build": "node-gyp rebuild",
+    "clean": "node-gyp clean"
+  },
   "consumedServices": {
     "tree-view": {
       "versions": {
@@ -23,10 +29,8 @@
     }
   },
   "dependencies": {
-    "electron-clipboard-ex": "^1.3.3",
     "fs-extra": "^11.2.0",
-    "i": "^0.3.7",
-    "install": "^0.13.0",
-    "npm": "^10.5.0"
+    "node-addon-api": "^8.3.0",
+    "node-gyp-build": "^4.8.4"
   }
 }
