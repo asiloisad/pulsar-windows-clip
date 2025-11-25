@@ -28,6 +28,13 @@
       }
     }
   },
+  "providedServices": {
+    "windows-clip": {
+      "versions": {
+        "1.0.0": "provideWindowsClip"
+      }
+    }
+  },
   "dependencies": {
     "fs-extra": "^11.2.0",
     "node-addon-api": "^8.3.0",
