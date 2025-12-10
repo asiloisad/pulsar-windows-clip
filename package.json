@@ -11,6 +11,14 @@
     "cut",
     "move"
   ],
+  "activationCommands": {
+    ".platform-win32 .tree-view": [
+      "windows-clip:cut",
+      "windows-clip:copy",
+      "windows-clip:paste",
+      "windows-clip:force"
+    ]
+  },
   "version": "3.0.0",
   "license": "MIT",
   "engines": {
