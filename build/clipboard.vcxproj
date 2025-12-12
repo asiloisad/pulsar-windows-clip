@@ -11,7 +11,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{2E6E8D76-8292-4A96-C7CE-2992082EEB54}</ProjectGuid>
+    <ProjectGuid>{6344F3B2-0B0D-8D5E-29CB-C7E877283CF7}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <RootNamespace>clipboard</RootNamespace>
     <IgnoreWarnCompileDuplicatedFilename>true</IgnoreWarnCompileDuplicatedFilename>
@@ -48,8 +48,8 @@
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\asiloisad\AppData\Local\node-gyp\Cache\16.0.0\include\node;C:\Users\asiloisad\AppData\Local\node-gyp\Cache\16.0.0\src;C:\Users\asiloisad\AppData\Local\node-gyp\Cache\16.0.0\deps\openssl\config;C:\Users\asiloisad\AppData\Local\node-gyp\Cache\16.0.0\deps\openssl\openssl\include;C:\Users\asiloisad\AppData\Local\node-gyp\Cache\16.0.0\deps\uv\include;C:\Users\asiloisad\AppData\Local\node-gyp\Cache\16.0.0\deps\zlib;C:\Users\asiloisad\AppData\Local\node-gyp\Cache\16.0.0\deps\v8\include;C:\Data\Develop\Pulsar\windows-clip\node_modules\node-addon-api;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
-      <AdditionalOptions>/std:c++17 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>C:\Users\asiloisad\AppData\Local\node-gyp\Cache\20.11.1\include\node;C:\Users\asiloisad\AppData\Local\node-gyp\Cache\20.11.1\src;C:\Users\asiloisad\AppData\Local\node-gyp\Cache\20.11.1\deps\openssl\config;C:\Users\asiloisad\AppData\Local\node-gyp\Cache\20.11.1\deps\openssl\openssl\include;C:\Users\asiloisad\AppData\Local\node-gyp\Cache\20.11.1\deps\uv\include;C:\Users\asiloisad\AppData\Local\node-gyp\Cache\20.11.1\deps\zlib;C:\Users\asiloisad\AppData\Local\node-gyp\Cache\20.11.1\deps\v8\include;c:\Data\Develop\Pulsar\windows-clip\node_modules\node-addon-api;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>/Zc:__cplusplus -std:c++17 /std:c++17 %(AdditionalOptions)</AdditionalOptions>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <BufferSecurityCheck>true</BufferSecurityCheck>
       <DebugInformationFormat>OldStyle</DebugInformationFormat>
@@ -60,7 +60,7 @@
       <OmitFramePointers>false</OmitFramePointers>
       <Optimization>Disabled</Optimization>
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
-      <PreprocessorDefinitions>NODE_GYP_MODULE_NAME=clipboard;USING_UV_SHARED=1;USING_V8_SHARED=1;V8_DEPRECATION_WARNINGS=1;V8_DEPRECATION_WARNINGS;V8_IMMINENT_DEPRECATION_WARNINGS;_GLIBCXX_USE_CXX11_ABI=1;WIN32;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_HAS_EXCEPTIONS=0;OPENSSL_NO_PINSHARED;OPENSSL_THREADS;NAPI_CPP_EXCEPTIONS;NAPI_VERSION=3;BUILDING_NODE_EXTENSION;HOST_BINARY=&quot;node.exe&quot;;DEBUG;_DEBUG;V8_ENABLE_CHECKS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>NODE_GYP_MODULE_NAME=clipboard;USING_UV_SHARED=1;USING_V8_SHARED=1;V8_DEPRECATION_WARNINGS=1;_GLIBCXX_USE_CXX11_ABI=1;WIN32;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_HAS_EXCEPTIONS=0;OPENSSL_NO_PINSHARED;OPENSSL_THREADS;NAPI_CPP_EXCEPTIONS;NAPI_VERSION=3;BUILDING_NODE_EXTENSION;HOST_BINARY=&quot;node.exe&quot;;DEBUG;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
       <StringPooling>true</StringPooling>
       <SuppressStartupBanner>true</SuppressStartupBanner>
@@ -72,7 +72,7 @@
       <AdditionalOptions>/LTCG:INCREMENTAL %(AdditionalOptions)</AdditionalOptions>
     </Lib>
     <Link>
-      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;delayimp.lib;&quot;C:\\Users\\asiloisad\\AppData\\Local\\node-gyp\\Cache\\16.0.0\\x64\\node.lib&quot;;Shell32.lib;Ole32.lib</AdditionalDependencies>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;delayimp.lib;&quot;C:\\Users\\asiloisad\\AppData\\Local\\node-gyp\\Cache\\20.11.1\\x64\\node.lib&quot;;Shell32.lib;Ole32.lib</AdditionalDependencies>
       <AdditionalOptions>/LTCG:INCREMENTAL /ignore:4199 %(AdditionalOptions)</AdditionalOptions>
       <DelayLoadDLLs>node.exe;%(DelayLoadDLLs)</DelayLoadDLLs>
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
@@ -84,14 +84,14 @@
       <TargetMachine>MachineX64</TargetMachine>
     </Link>
     <ResourceCompile>
-      <AdditionalIncludeDirectories>C:\Users\asiloisad\AppData\Local\node-gyp\Cache\16.0.0\include\node;C:\Users\asiloisad\AppData\Local\node-gyp\Cache\16.0.0\src;C:\Users\asiloisad\AppData\Local\node-gyp\Cache\16.0.0\deps\openssl\config;C:\Users\asiloisad\AppData\Local\node-gyp\Cache\16.0.0\deps\openssl\openssl\include;C:\Users\asiloisad\AppData\Local\node-gyp\Cache\16.0.0\deps\uv\include;C:\Users\asiloisad\AppData\Local\node-gyp\Cache\16.0.0\deps\zlib;C:\Users\asiloisad\AppData\Local\node-gyp\Cache\16.0.0\deps\v8\include;C:\Data\Develop\Pulsar\windows-clip\node_modules\node-addon-api;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
-      <PreprocessorDefinitions>NODE_GYP_MODULE_NAME=clipboard;USING_UV_SHARED=1;USING_V8_SHARED=1;V8_DEPRECATION_WARNINGS=1;V8_DEPRECATION_WARNINGS;V8_IMMINENT_DEPRECATION_WARNINGS;_GLIBCXX_USE_CXX11_ABI=1;WIN32;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_HAS_EXCEPTIONS=0;OPENSSL_NO_PINSHARED;OPENSSL_THREADS;NAPI_CPP_EXCEPTIONS;NAPI_VERSION=3;BUILDING_NODE_EXTENSION;HOST_BINARY=&quot;node.exe&quot;;DEBUG;_DEBUG;V8_ENABLE_CHECKS;%(PreprocessorDefinitions);%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\asiloisad\AppData\Local\node-gyp\Cache\20.11.1\include\node;C:\Users\asiloisad\AppData\Local\node-gyp\Cache\20.11.1\src;C:\Users\asiloisad\AppData\Local\node-gyp\Cache\20.11.1\deps\openssl\config;C:\Users\asiloisad\AppData\Local\node-gyp\Cache\20.11.1\deps\openssl\openssl\include;C:\Users\asiloisad\AppData\Local\node-gyp\Cache\20.11.1\deps\uv\include;C:\Users\asiloisad\AppData\Local\node-gyp\Cache\20.11.1\deps\zlib;C:\Users\asiloisad\AppData\Local\node-gyp\Cache\20.11.1\deps\v8\include;c:\Data\Develop\Pulsar\windows-clip\node_modules\node-addon-api;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>NODE_GYP_MODULE_NAME=clipboard;USING_UV_SHARED=1;USING_V8_SHARED=1;V8_DEPRECATION_WARNINGS=1;_GLIBCXX_USE_CXX11_ABI=1;WIN32;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_HAS_EXCEPTIONS=0;OPENSSL_NO_PINSHARED;OPENSSL_THREADS;NAPI_CPP_EXCEPTIONS;NAPI_VERSION=3;BUILDING_NODE_EXTENSION;HOST_BINARY=&quot;node.exe&quot;;DEBUG;_DEBUG;%(PreprocessorDefinitions);%(PreprocessorDefinitions)</PreprocessorDefinitions>
     </ResourceCompile>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\asiloisad\AppData\Local\node-gyp\Cache\16.0.0\include\node;C:\Users\asiloisad\AppData\Local\node-gyp\Cache\16.0.0\src;C:\Users\asiloisad\AppData\Local\node-gyp\Cache\16.0.0\deps\openssl\config;C:\Users\asiloisad\AppData\Local\node-gyp\Cache\16.0.0\deps\openssl\openssl\include;C:\Users\asiloisad\AppData\Local\node-gyp\Cache\16.0.0\deps\uv\include;C:\Users\asiloisad\AppData\Local\node-gyp\Cache\16.0.0\deps\zlib;C:\Users\asiloisad\AppData\Local\node-gyp\Cache\16.0.0\deps\v8\include;C:\Data\Develop\Pulsar\windows-clip\node_modules\node-addon-api;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
-      <AdditionalOptions>/std:c++17 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>C:\Users\asiloisad\AppData\Local\node-gyp\Cache\20.11.1\include\node;C:\Users\asiloisad\AppData\Local\node-gyp\Cache\20.11.1\src;C:\Users\asiloisad\AppData\Local\node-gyp\Cache\20.11.1\deps\openssl\config;C:\Users\asiloisad\AppData\Local\node-gyp\Cache\20.11.1\deps\openssl\openssl\include;C:\Users\asiloisad\AppData\Local\node-gyp\Cache\20.11.1\deps\uv\include;C:\Users\asiloisad\AppData\Local\node-gyp\Cache\20.11.1\deps\zlib;C:\Users\asiloisad\AppData\Local\node-gyp\Cache\20.11.1\deps\v8\include;c:\Data\Develop\Pulsar\windows-clip\node_modules\node-addon-api;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>/Zc:__cplusplus -std:c++17 /std:c++17 %(AdditionalOptions)</AdditionalOptions>
       <BufferSecurityCheck>true</BufferSecurityCheck>
       <DebugInformationFormat>OldStyle</DebugInformationFormat>
       <DisableSpecificWarnings>4351;4355;4800;4251;4275;4244;4267;%(DisableSpecificWarnings)</DisableSpecificWarnings>
@@ -104,7 +104,7 @@
       <OmitFramePointers>true</OmitFramePointers>
       <Optimization>Full</Optimization>
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
-      <PreprocessorDefinitions>NODE_GYP_MODULE_NAME=clipboard;USING_UV_SHARED=1;USING_V8_SHARED=1;V8_DEPRECATION_WARNINGS=1;V8_DEPRECATION_WARNINGS;V8_IMMINENT_DEPRECATION_WARNINGS;_GLIBCXX_USE_CXX11_ABI=1;WIN32;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_HAS_EXCEPTIONS=0;OPENSSL_NO_PINSHARED;OPENSSL_THREADS;NAPI_CPP_EXCEPTIONS;NAPI_VERSION=3;BUILDING_NODE_EXTENSION;HOST_BINARY=&quot;node.exe&quot;;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>NODE_GYP_MODULE_NAME=clipboard;USING_UV_SHARED=1;USING_V8_SHARED=1;V8_DEPRECATION_WARNINGS=1;_GLIBCXX_USE_CXX11_ABI=1;WIN32;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_HAS_EXCEPTIONS=0;OPENSSL_NO_PINSHARED;OPENSSL_THREADS;NAPI_CPP_EXCEPTIONS;NAPI_VERSION=3;BUILDING_NODE_EXTENSION;HOST_BINARY=&quot;node.exe&quot;;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
       <RuntimeTypeInfo>false</RuntimeTypeInfo>
       <StringPooling>true</StringPooling>
@@ -117,7 +117,7 @@
       <AdditionalOptions>/LTCG:INCREMENTAL %(AdditionalOptions)</AdditionalOptions>
     </Lib>
     <Link>
-      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;delayimp.lib;&quot;C:\\Users\\asiloisad\\AppData\\Local\\node-gyp\\Cache\\16.0.0\\x64\\node.lib&quot;;Shell32.lib;Ole32.lib</AdditionalDependencies>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;delayimp.lib;&quot;C:\\Users\\asiloisad\\AppData\\Local\\node-gyp\\Cache\\20.11.1\\x64\\node.lib&quot;;Shell32.lib;Ole32.lib</AdditionalDependencies>
       <AdditionalOptions>/LTCG:INCREMENTAL /ignore:4199 %(AdditionalOptions)</AdditionalOptions>
       <DelayLoadDLLs>node.exe;%(DelayLoadDLLs)</DelayLoadDLLs>
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
@@ -129,8 +129,8 @@
       <TargetMachine>MachineX64</TargetMachine>
     </Link>
     <ResourceCompile>
-      <AdditionalIncludeDirectories>C:\Users\asiloisad\AppData\Local\node-gyp\Cache\16.0.0\include\node;C:\Users\asiloisad\AppData\Local\node-gyp\Cache\16.0.0\src;C:\Users\asiloisad\AppData\Local\node-gyp\Cache\16.0.0\deps\openssl\config;C:\Users\asiloisad\AppData\Local\node-gyp\Cache\16.0.0\deps\openssl\openssl\include;C:\Users\asiloisad\AppData\Local\node-gyp\Cache\16.0.0\deps\uv\include;C:\Users\asiloisad\AppData\Local\node-gyp\Cache\16.0.0\deps\zlib;C:\Users\asiloisad\AppData\Local\node-gyp\Cache\16.0.0\deps\v8\include;C:\Data\Develop\Pulsar\windows-clip\node_modules\node-addon-api;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
-      <PreprocessorDefinitions>NODE_GYP_MODULE_NAME=clipboard;USING_UV_SHARED=1;USING_V8_SHARED=1;V8_DEPRECATION_WARNINGS=1;V8_DEPRECATION_WARNINGS;V8_IMMINENT_DEPRECATION_WARNINGS;_GLIBCXX_USE_CXX11_ABI=1;WIN32;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_HAS_EXCEPTIONS=0;OPENSSL_NO_PINSHARED;OPENSSL_THREADS;NAPI_CPP_EXCEPTIONS;NAPI_VERSION=3;BUILDING_NODE_EXTENSION;HOST_BINARY=&quot;node.exe&quot;;%(PreprocessorDefinitions);%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\asiloisad\AppData\Local\node-gyp\Cache\20.11.1\include\node;C:\Users\asiloisad\AppData\Local\node-gyp\Cache\20.11.1\src;C:\Users\asiloisad\AppData\Local\node-gyp\Cache\20.11.1\deps\openssl\config;C:\Users\asiloisad\AppData\Local\node-gyp\Cache\20.11.1\deps\openssl\openssl\include;C:\Users\asiloisad\AppData\Local\node-gyp\Cache\20.11.1\deps\uv\include;C:\Users\asiloisad\AppData\Local\node-gyp\Cache\20.11.1\deps\zlib;C:\Users\asiloisad\AppData\Local\node-gyp\Cache\20.11.1\deps\v8\include;c:\Data\Develop\Pulsar\windows-clip\node_modules\node-addon-api;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>NODE_GYP_MODULE_NAME=clipboard;USING_UV_SHARED=1;USING_V8_SHARED=1;V8_DEPRECATION_WARNINGS=1;_GLIBCXX_USE_CXX11_ABI=1;WIN32;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_HAS_EXCEPTIONS=0;OPENSSL_NO_PINSHARED;OPENSSL_THREADS;NAPI_CPP_EXCEPTIONS;NAPI_VERSION=3;BUILDING_NODE_EXTENSION;HOST_BINARY=&quot;node.exe&quot;;%(PreprocessorDefinitions);%(PreprocessorDefinitions)</PreprocessorDefinitions>
     </ResourceCompile>
   </ItemDefinitionGroup>
   <ItemGroup>
@@ -147,7 +147,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="node_modules\node-addon-api\nothing.vcxproj">
-      <Project>{DB2EA7F8-1828-384E-4912-0176A81A5C2A}</Project>
+      <Project>{4690E4E1-5586-F33C-D244-C813A0A90319}</Project>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
   </ItemGroup>

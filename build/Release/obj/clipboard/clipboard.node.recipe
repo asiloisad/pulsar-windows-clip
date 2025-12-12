@@ -2,7 +2,7 @@
 <Project>
   <ProjectOutputs>
     <ProjectOutput>
-      <FullPath>C:\Data\Develop\Pulsar\windows-clip\build\Release\clipboard.node</FullPath>
+      <FullPath>c:\Data\Develop\Pulsar\windows-clip\build\Release\clipboard.node</FullPath>
     </ProjectOutput>
   </ProjectOutputs>
   <ContentFiles />
