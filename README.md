@@ -1,6 +1,6 @@
 # windows-clip
 
-A native-like copy/paste operations for tree-view in Windows OS. Windows Explorer copy name format is used `<name> - Copy (i)<ext>`. An NodeJS package called `clipboardEx` works in background.
+Native Windows clipboard Cut/Copy/Paste operations for tree-view. Uses the Windows clipboard API directly, so files copied in Pulsar can be pasted in Windows Explorer and vice versa. Duplicate files use the Windows naming format `<name> - Copy (n)<ext>`.
 
 ![context-menu](https://github.com/asiloisad/pulsar-windows-clip/blob/master/assets/context-menu.png?raw=true)
 
@@ -12,12 +12,44 @@ To install `windows-clip` search for [windows-clip](https://web.pulsar-edit.dev/
 
 In `.platform-win32 .tree-view` there are available commands:
 
-- `windows-clip:copy`: (default `Shift-C`) use Windows native-like copy function
-- `windows-clip:paste`: (default `Shift-V`) use Windows native-like paste function
-- `windows-clip:force`: (default `Shift-B`) use Windows native-like paste function (and overwrite names if already exists)
+| Command | Description |
+| --- | --- |
+| `windows-clip:cut` | Cut selected files/folders to clipboard |
+| `windows-clip:copy` | Copy selected files/folders to clipboard |
+| `windows-clip:paste` | Paste from clipboard (auto-rename if exists) |
+| `windows-clip:force` | Paste from clipboard (overwrite if exists) |
 
 Commands are available in context-menu.
 
-# Contributing
+## Service API
 
-Got ideas to make this package better, found a bug, or want to help add new features? Just drop your thoughts on GitHub — any feedback’s welcome!
+The package provides a `windows-clip` service for other packages:
+
+```javascript
+// In your package.json:
+// "consumedServices": { "windows-clip": { "versions": { "1.0.0": "consumeWindowsClip" } } }
+
+consumeWindowsClip(windowsClip) {
+  // Constants for drop effect
+  windowsClip.DROP_EFFECT_NONE  // 0
+  windowsClip.DROP_EFFECT_COPY  // 1
+  windowsClip.DROP_EFFECT_MOVE  // 2
+  windowsClip.DROP_EFFECT_LINK  // 4
+
+  // Read file paths from Windows clipboard
+  const paths = windowsClip.readFilePaths()
+
+  // Read the drop effect (copy/move/link)
+  const effect = windowsClip.readDropEffect()
+
+  // Write file paths to clipboard with drop effect
+  windowsClip.writeFilePaths(['/path/to/file'], windowsClip.DROP_EFFECT_COPY)
+
+  // Clear the clipboard
+  windowsClip.clear()
+}
+```
+
+## Contributing
+
+Got ideas to make this package better, found a bug, or want to help add new features? Just drop your thoughts on GitHub — any feedback's welcome!
