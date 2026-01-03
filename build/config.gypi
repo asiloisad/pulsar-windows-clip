@@ -413,7 +413,7 @@
     "v8_use_siphash": 1,
     "want_separate_host_toolset": 0,
     "nodedir": "C:\\Users\\asiloisad\\AppData\\Local\\node-gyp\\Cache\\20.11.1",
-    "python": "C:\\Program Files\\Python313\\python.exe",
+    "python": "C:\\Program Files\\Python314\\python.exe",
     "standalone_static_library": 1,
     "msbuild_path": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\MSBuild.exe",
     "user_agent": "npm/11.6.2 node/v20.18.2 win32 x64 workspaces/false",
