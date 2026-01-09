@@ -1,9 +1,8 @@
 'context-menu':
-  '.platform-win32 .tree-view .full-menu, .platform-win32 .tree-view .multi-select': [
+  '.platform-win32 .tree-view': [
     {'type': 'separator'}
     { label: 'WinCut', command: 'windows-clip:cut' },
     { label: 'WinCopy', command: 'windows-clip:copy' },
     { label: 'WinPaste', command: 'windows-clip:paste' },
-    { label: 'WinForce', command: 'windows-clip:force' },
     {'type': 'separator'}
   ]
