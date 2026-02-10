@@ -416,16 +416,16 @@
     "python": "C:\\Program Files\\Python314\\python.exe",
     "standalone_static_library": 1,
     "msbuild_path": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\MSBuild.exe",
-    "user_agent": "npm/11.6.2 node/v20.18.2 win32 x64 workspaces/false",
-    "userconfig": "C:\\Users\\asiloisad\\.npmrc",
-    "prefix": "C:\\ProgramData\\nodejs",
-    "npm_version": "11.6.2",
-    "node_gyp": "C:\\ProgramData\\nvm\\v20.18.2\\node_modules\\npm\\node_modules\\node-gyp\\bin\\node-gyp.js",
-    "local_prefix": "c:\\Data\\Develop\\Pulsar\\windows-clip",
-    "init_module": "C:\\Users\\asiloisad\\.npm-init.js",
-    "global_prefix": "C:\\ProgramData\\nodejs",
-    "globalconfig": "C:\\ProgramData\\nodejs\\etc\\npmrc",
+    "cache": "C:\\Users\\asiloisad\\AppData\\Local\\npm-cache",
     "fund": "",
-    "cache": "C:\\Users\\asiloisad\\AppData\\Local\\npm-cache"
+    "globalconfig": "C:\\ProgramData\\nodejs\\etc\\npmrc",
+    "global_prefix": "C:\\ProgramData\\nodejs",
+    "init_module": "C:\\Users\\asiloisad\\.npm-init.js",
+    "local_prefix": "c:\\Data\\Develop\\Pulsar\\windows-clip",
+    "node_gyp": "C:\\ProgramData\\nvm\\v20.11.1\\node_modules\\npm\\node_modules\\node-gyp\\bin\\node-gyp.js",
+    "npm_version": "10.2.4",
+    "prefix": "C:\\ProgramData\\nodejs",
+    "userconfig": "C:\\Users\\asiloisad\\.npmrc",
+    "user_agent": "npm/10.2.4 node/v20.11.1 win32 x64 workspaces/false"
   }
 }
