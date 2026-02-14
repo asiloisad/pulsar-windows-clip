@@ -1,6 +1,6 @@
 {
   "name": "windows-clip",
-  "description": "Native Windows clipboard Cut/Copy/Paste operations for tree-view",
+  "description": "Native Windows clipboard operations for tree-view files and folders",
   "repository": "https://github.com/asiloisad/pulsar-windows-clip",
   "keywords": [
     "windows",

@@ -25,9 +25,9 @@ Commands available in `.platform-win32 .tree-view`:
 - `windows-clip:paste`: (`Shift+V`) paste from clipboard (auto-rename if exists),
 - `windows-clip:force`: (`Shift+B`) paste from clipboard (overwrite if exists).
 
-## Service
+## Provided Service `windows-clip`
 
-The package provides a `windows-clip` service for other packages.
+Provides native Windows clipboard access for file operations. Other packages can read/write file paths and drop effects directly from the Windows clipboard.
 
 In your `package.json`:
 
