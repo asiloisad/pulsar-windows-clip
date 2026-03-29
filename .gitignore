@@ -1,2 +1,14 @@
 *.dev
 node_modules
+build/Release/*.exp
+build/Release/*.iobj
+build/Release/*.ipdb
+build/Release/*.lib
+build/Release/*.pdb
+build/Release/nothing.*
+build/Release/obj
+build/*.sln
+build/*.vcxproj
+build/*.vcxproj.filters
+build/config.gypi
+build/node_modules
