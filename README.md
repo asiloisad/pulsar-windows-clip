@@ -20,10 +20,10 @@ To install `windows-clip` search for [windows-clip](https://web.pulsar-edit.dev/
 
 Commands available in `.platform-win32 .tree-view`:
 
-- `windows-clip:cut`: (`Shift+X`) cut selected files/folders to clipboard,
-- `windows-clip:copy`: (`Shift+C`) copy selected files/folders to clipboard,
-- `windows-clip:paste`: (`Shift+V`) paste from clipboard (auto-rename if exists),
-- `windows-clip:force`: (`Shift+B`) paste from clipboard (overwrite if exists).
+- `windows-clip:cut`: <kbd>Shift+X</kbd> cut selected files/folders to clipboard,
+- `windows-clip:copy`: <kbd>Shift+C</kbd> copy selected files/folders to clipboard,
+- `windows-clip:paste`: <kbd>Shift+V</kbd> paste from clipboard (auto-rename if exists),
+- `windows-clip:force`: <kbd>Shift+B</kbd> paste from clipboard (overwrite if exists).
 
 ## Provided Service `windows-clip`
 
